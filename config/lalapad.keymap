@@ -188,10 +188,10 @@
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
-&kp ESC    &kp Q  &kp L       &kp U            &kp COMMA            &kp DOT                   &kp F                   &kp W          &kp R            &kp Y       &kp P     &mt EQUAL MINUS
-&kp LALT   &kp E  &kp I       &kp A            &kp O                &kp MINUS                 &kp K                   &kp T          &kp N            &kp S       &kp H     &kp TAB
-&kp LSHFT  &kp Z  &kp X       &kp C            &kp V                &kp SLASH                 &kp G                   &kp D          &kp M            &kp J       &kp B     &kp BSLH
-&kp LWIN   &none  &none       &kp SPACE        &mo SECONDARY_LAYER  &lt TERTIARY_LAYER LANG2  &lt SYSTEM_LAYER LANG1  &kp BACKSPACE  &kp RET          &kp LEFT    &kp DOWN  &kp RIGHT
+&kp ESC    &kp Q  &kp L       &kp U            &kp COMMA            &kp DOT                   &kp F                   &kp W          &kp R            &kp Y       &kp P  &mt EQUAL MINUS
+&kp LALT   &kp E  &kp I       &kp A            &kp O                &kp MINUS                 &kp K                   &kp T          &kp N            &kp S       &kp H  &kp TAB
+&kp LSHFT  &kp Z  &kp X       &kp C            &kp V                &kp SLASH                 &kp G                   &kp D          &kp M            &kp J       &kp B  &none
+&kp LWIN   &none  &none       &kp SPACE        &mo SECONDARY_LAYER  &lt TERTIARY_LAYER LANG2  &lt SYSTEM_LAYER LANG1  &kp BACKSPACE  &kp RET          &none       &none  &none
                   &allow_end  &allow_pagedown  &allow_home          &allow_pageup             &allow_pageup           &allow_home    &allow_pagedown  &allow_end
             >;
         };
